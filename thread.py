@@ -18,6 +18,7 @@ y = threading.Thread(target=thread_b)
 x.start()
 y.start()
 
+# delays a program's flow of execution until the target thread has been completely read
 # x.join()
 # y.join()
 
